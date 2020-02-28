@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Lbl_Title">Veuillez entrer une valeur entre 1 et 100</string>
+    <string name="Btn_Valider">Valider</string>
+</resources>
