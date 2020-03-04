@@ -3,8 +3,15 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private EditText txtNumber;
+    private Button btnValidate;
+    private TextView txtResult;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
