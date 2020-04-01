@@ -6,7 +6,7 @@
     <string name="str_plusG">Plus grand !</string>
     <string name="str_plusP">Plus petit</string>
     <string name="str_congrat">\"Félicitation ! \"</string>
-    <string name="str_message">\"Félicitation, vous avez trouvé en %d coups ! \"</string>
+    <string name="str_message">\"Félicitation, vous avez trouvé en %d coups ! Voulez-vous rejouer ?\"</string>
     <string name="str_Non">Non</string>
     <string name="str_Oui">Oui</string>
 </resources>

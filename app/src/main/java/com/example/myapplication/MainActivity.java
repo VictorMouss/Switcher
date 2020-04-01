@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        retryAlert.show();
     }
 
     private View.OnClickListener btnValideListenner = new View.OnClickListener() {
@@ -75,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             String txtNumberG = txtNumber.getText().toString();
             if (txtNumberG.equals("")) return;
 
-            txtHistory.append(txtNumber+"\r\n");
+            txtHistory.append(txtNumber.getText().toString()+"\r\n");
             prgBarEssai.incrementProgressBy(1);
             score++;
 
@@ -88,6 +90,8 @@ public class MainActivity extends AppCompatActivity {
             else{
                 txtResult.setText(R.string.str_plusP);
             }
+            txtNumber.setText("");
+            txtNumber.requestFocus();
         }
     };
 }
