@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name"> Jeu Nombre</string>
     <string name="Lbl_Title">Veuillez entrer une valeur entre 1 et 100</string>
     <string name="Btn_Valider">Valider</string>
     <string name="txtResult" />
+    <string name="str_plusG">Plus grand !</string>
+    <string name="str_plusP">Plus petit</string>
+    <string name="str_congrat">\"Félicitation ! \"</string>
+    <string name="str_message">\"Félicitation, vous avez trouvé en %d coups ! \"</string>
+    <string name="str_Non">Non</string>
+    <string name="str_Oui">Oui</string>
 </resources>
