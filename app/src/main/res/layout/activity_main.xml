@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/TextView"
+        android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Lbl_Title"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btnValidate"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextView" />
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
 
     <Button
         android:id="@+id/btnValidate"
@@ -40,7 +40,7 @@
         android:layout_marginTop="34dp"
         android:text="@string/Btn_Valider"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextView" />
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
 
     <TextView
         android:id="@+id/txtResult"
